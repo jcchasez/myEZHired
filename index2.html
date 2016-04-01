@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://hired.com">
+  <title>Hired - Job Search Marketplace. Job Hunting Simplified!</title>
+  <meta charset="utf-8">
+    <link rel="stylesheet" href="pages2.css">
+    
+</head>
+
+<body class="homepage">
+ <header class="fluid-container">
+ 	<nav> <!-- class="navigationbar navigationbar--hero -->
+ 	<div class="container">
+ 		<!-- Icon -->
+        <div class="navigationbar__header">
+        <a class="navigationbar__header__logo" href="/" target="_self">
+        <img alt="Hired" class="icon icon--hired"  height="15" width="95" src="FrontLogos/icon.png">
+            <input class="navigationbar__toggle__helper" type="checkbox">
+        </a>
+        </div>
+        <!-- menu -->
+        <div class="navigationbar__toggle">
+        <div class="navigationbar__toggle__element">
+        <img alt="Menu" class="icon icon--sandwich" src="FrontLogos/icon.png">
+        </div>
+        <ul class="navigationbar__navigation xs-text-right">
+        	<li class="navigationbar__item"><a class="navigationbar__link" target="_self" href="/how-it-works">How it works</a></li>
+        	<li class="navigationbar__item"><a class="navigationbar__link" target="_self" href="/employer">For Employer</a></li>
+        	<li class="navigationbar__item"><a class="navigationbar__link" target="_self" href="/invite?traffic_source=u_h_home_index">Invite</a></li>
+        	<li class="navigationbar__item"><a class="navigationbar__link" target="_self" href="/login">Sign In</a></li>
+        	<li class="navigationbar__item"><a class="navigationbar__link" target="_self" href="/signup">Sign Up</a></li>
+        </ul> 
+        </div>
+ 	</div>
+ 	</nav>
+ </header> 
+    
+    <!-- Enter Email We bring job offers to you -->
+    <div class="box--background-hero optimizely-original box box--background-cover xs-prl1 sm-ptb4 xs-ptbh1" id="cro-hero">
+     <div class="conainer">
+      <h3 class="xs-mb1 xs-inseth1 sm-alpha sm-inseth2" id="cro-hero__headline">We Bring Job Offers To You</h3>
+     <!--no xs-none -->
+      <div class="text-light text-white xs-mb1 sm-block p--lead" id="cro-hero__subheading">FREE For Candidates. Salaries from $75,000 to $250,000</div> 
+    <!--Email Enter -->
+     <div class="email_container">
+     <form action="/leads" accept-charset="UTF-8" method="post">
+         <input name="utf-8" type="hidden" value="checkmark">
+         <div class="email_layout">
+             <!--Input-->
+           <div class="email_div">
+             <input placeholder="Your Email" type="text" name="lead[email]" id="lead_email">
+             <!-- Submit-->
+             <!--   <input type="submit" style="height:3rem;" name="commit" data-disable-with="Get Job Offers" value="Get Job Offers"> -->
+             <button style="height:3rem;" name="commit" data-disable-with="Get Job Offers">Get Job Offers</button>    
+             </div>
+         </div>
+     </form>
+     </div>
+         <!--Text under email-->
+     <div style="text-align:center;font-size:0.9rem; padding-top:30px;">
+       
+         Are you hiring?
+    
+        <a href="/employers" style="color:white;">See how it works for employers.</a>
+     </div>
+    </div>
+    </div>
+    
+    <!--Text list How it works-->
+    <div class="box box--white-light xs-mb1" id="how-it-works">
+    <div class="box box--white-light xs-ptb3">
+     <div class="xs-text-center xs-gamma xs-mb2 sm-beta sm-inset2">How It Works</div>
+        <ol class="poolball-list poolball-list--hollow poolball-list--light">
+          <li class="xs-delta">Answer a Few Questions</li>
+          <li class="xs-delta">Companies Send You Offers with Upfront Compensation</li>
+          <li class="xs-delta">Find a Job and Get a $1000 Bouns From Hired</li>
+        </ol>
+    </div>
+    </div>
+    
+        <!-- Logo List -->
+    <div class="container" id="company-logos">
+        <div class="xs-text-center xs-prl1 xs-pt0r xs-pbh0 sm-pt2 md-prl0">
+            <h5 class="xs-delta sm-pb3 sm-gamma" id="cro-company-logos__text">Here are a few of the 2,000+ companies you could get offers from:</h5></div>
+     <!--logos -->
+        <div id="cro-company-logs_images">
+         <ul class="block-list xs-text-center xs-ptb0">
+            <li class="md-2of12 xs-6of12 sm-4of12 xs-mb1 xs-inline-block">
+             <img class="homepage-company-icon-en homepage-company-icon-en--CollectiveHealth" alt="Hired Client - CollectiveHealth" src="FrontLogos/logos.png">
+             </li>
+             <li class="md-2of12 xs-6of12 sm-4of12 xs-mb1 xs-inline-block">
+             <img class="homepage-company-icon-en homepage-company-icon-en--TransferWise" alt="Hired Client - TransferWise" src="FrontLogos/logos.png">
+             </li>
+             <li class="md-2of12 xs-6of12 sm-4of12 xs-mb1 xs-inline-block">
+             <img class="homepage-company-icon-en homepage-company-icon-en--Github" alt="Hired Client - GitHub" src="FrontLogos/logos.png">
+             </li>
+             <li class="md-2of12 xs-6of12 sm-4of12 xs-mb1 xs-inline-block">
+             <img class="homepage-company-icon-en homepage-company-icon-en--Uber" alt="Hired Client - Uber" src="FrontLogos/logos.png">
+             </li>
+             <li class="md-2of12 xs-6of12 sm-4of12 xs-mb1 xs-inline-block">
+             <img class="homepage-company-icon-en homepage-company-icon-en--Groupon" alt="Hired Client - Groupon" src="FrontLogos/logos.png">
+             </li>
+             <li class="md-2of12 xs-6of12 sm-4of12 xs-mb1 xs-inline-block">
+             <img class="homepage-company-icon-en homepage-company-icon-en--Jet" alt="Hired Client - Jet" src="FrontLogos/logos.png">
+             </li>
+             <!--xs-none-->
+             <li class="md-2of12 xs-6of12 sm-4of12 xs-mb1  sm-inline-block">
+             <img class="homepage-company-icon-en homepage-company-icon-en--Twitch" alt="Hired Client - Twitch" src="FrontLogos/logos.png">
+             </li>
+             <li class="md-2of12 xs-6of12 sm-4of12 xs-mb1  sm-inline-block">
+             <img class="homepage-company-icon-en homepage-company-icon-en--Hipmunk" alt="Hired Client - Hipmunk" src="FrontLogos/logos.png">
+             </li>
+             <li class="md-2of12 xs-6of12 sm-4of12 xs-mb1  sm-inline-block">
+             <img class="homepage-company-icon-en homepage-company-icon-en--Improbable" alt="Hired Client - Improbable" src="FrontLogos/logos.png">
+             </li>
+             <li class="md-2of12 xs-6of12 sm-4of12 xs-mb1  sm-inline-block">
+             <img class="homepage-company-icon-en homepage-company-icon-en--Eventbrite" alt="Hired Client - Eventbrite" src="FrontLogos/logos.png">
+             </li>
+             <li class="md-2of12 xs-6of12 sm-4of12 xs-mb1  sm-inline-block">
+             <img class="homepage-company-icon-en homepage-company-icon-en--Stripe" alt="Hired Client - Stripe" src="FrontLogos/logos.png">
+             </li>
+             <li class="md-2of12 xs-6of12 sm-4of12 xs-mb1 sm-inline-block">
+             <img class="homepage-company-icon-en homepage-company-icon-en--Facebook" alt="Hired Client - Facebook" src="FrontLogos/logos.png">
+             </li>
+             <li class="md-2of12 xs-6of12 sm-4of12 xs-mb1 sm-inline-block">
+             <img class="homepage-company-icon-en homepage-company-icon-en--Fanatics" alt="Hired Client - Fanatics" src="FrontLogos/logos.png">
+             </li>
+             <li class="md-2of12 xs-6of12 sm-4of12 xs-mb1 sm-inline-block">
+             <img class="homepage-company-icon-en homepage-company-icon-en--Forbes" alt="Hired Client - Forbes" src="FrontLogos/logos.png">
+             </li>
+             <li class="md-2of12 xs-6of12 sm-4of12 xs-mb1 sm-inline-block">
+             <img class="homepage-company-icon-en homepage-company-icon-en--Grubhub" alt="Hired Client - Grubhub" src="FrontLogos/logos.png">
+             </li>
+             <li class="md-2of12 xs-6of12 sm-4of12 xs-mb1 sm-inline-block">
+             <img class="homepage-company-icon-en homepage-company-icon-en--Evernote" alt="Hired Client - Evernote" src="FrontLogos/logos.png">
+             </li>
+             <li class="md-2of12 xs-6of12 sm-4of12 xs-mb1 sm-inline-block">
+             <img class="homepage-company-icon-en homepage-company-icon-en--Aljazeera" alt="Hired Client - Aljazeera" src="FrontLogos/logos.png">
+             </li>
+             <li class="md-2of12 xs-6of12 sm-4of12 xs-mb1 sm-inline-block">
+             <img class="homepage-company-icon-en homepage-company-icon-en--Deliveroo" alt="Hired Client - Deliveroo" src="FrontLogos/logos.png">
+             </li>
+             
+        </ul>
+        </div>
+    </div>
+    
+<p> This is a test</p>
+</body>
+</html>
